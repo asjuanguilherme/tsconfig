@@ -1,6 +1,5 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Default",
   "compilerOptions": {
     "composite": false,
     "declaration": true,
@@ -14,7 +13,12 @@
     "noUnusedParameters": false,
     "preserveWatchOutput": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "incremental": true,
+    "allowJs": true,
+    "module": "ESNext",
+    "target": "ES2020",
+    "resolveJsonModule": true
   },
   "exclude": ["node_modules"]
 }
